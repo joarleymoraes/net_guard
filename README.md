@@ -22,6 +22,10 @@ PRs are welcome :)
 
 Edit `settings.cnf` to set `ALERT_EMAIL_ADD`. 
 
+Add the Mac addresses of devices you know to `whitelist.txt`. You can list current connected devices using:
+
+`arp-scan --interface=<xx> --localnet` 
+
 ## Usage
 
 `./net_guard.sh en0`
