@@ -29,7 +29,7 @@ Add the Mac addresses of devices you know to `whitelist.txt`. You can list curre
 ## Usage
 `./net_guard.sh <interface>`
 
-`E.g.:/net_guard.sh en0`
+`E.g.: ./net_guard.sh en0`
 
 To list all network interfaces:
 
