@@ -1,0 +1,11 @@
+Interface: en1, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.9 with 256 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.0.1	34:bd:fa:b3:ed:c5	Cisco SPVTG
+192.168.0.10	c4:e9:84:3c:fe:6c	TP-LINK TECHNOLOGIES CO.,LTD.
+192.168.0.12	a8:5c:2c:7a:10:db	Apple, Inc.
+192.168.0.15	68:a8:6d:29:78:48	Apple, Inc.
+192.168.0.17	3c:a1:0d:83:c8:7f	Samsung Electronics Co.,Ltd
+192.168.0.40	30:e1:71:d0:0c:f0	Hewlett Packard
+
+735 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.9: 256 hosts scanned in 1.875 seconds (136.53 hosts/sec). 6 responded

@@ -1,0 +1,5 @@
+WL_FILE=whitelist.txt
+NFL_FILE=new_found.txt 
+CRT_FILE=arp_scan.txt
+ALERT_EMAIL_ADD=your@email.com
+CHECK_INTERVAL=30
