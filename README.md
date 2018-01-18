@@ -27,10 +27,11 @@ Add the Mac addresses of devices you know to `whitelist.txt`. You can list curre
 `arp-scan --interface=<xx> --localnet` 
 
 ## Usage
+`./net_guard.sh <interface>`
 
-`./net_guard.sh en0`
+`E.g.:/net_guard.sh en0`
 
-List all network interfaces:
+To list all network interfaces:
 
 `ifconfig`
 
