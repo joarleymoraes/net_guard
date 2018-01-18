@@ -14,7 +14,8 @@ Configure `mail` on terminal, [here's a tutorial on Gmail](http://codana.me/2014
 
 ### Other Platforms:
 
-TODO. PRs welcome :)
+TODO. 
+PRs are welcome :)
 
 
 ## Configure
@@ -25,7 +26,7 @@ Edit `settings.cnf` to set `ALERT_EMAIL_ADD`.
 
 `./net_guard.sh en0`
 
-List network interfaces:
+List all network interfaces:
 
 `ifconfig`
 
