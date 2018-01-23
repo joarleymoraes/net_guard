@@ -18,11 +18,11 @@ function process(){
 
   cat ${CRT_FILE} | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}' $1 | while read x;
   do 
-    if grep -Fxq "$x" ${WL_FILE}
+    if grep -q "$x" ${WL_FILE}
     then
       :
     else
-      if ! grep -Fxq "$x" ${NFL_FILE}
+      if ! grep -q "$x" ${NFL_FILE}
       then
         echo "new mac found: " $x
         cat ${CRT_FILE} | mail -s "New Device Found: ${x}" ${ALERT_EMAIL_ADD}

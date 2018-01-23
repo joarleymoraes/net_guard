@@ -26,6 +26,12 @@ Add the Mac addresses of devices you know to `whitelist.txt`. You can list curre
 
 `arp-scan --interface=<xx> --localnet` 
 
+Newly found devices are recorded at `new_found.txt`, and are only reported once.
+
+Both `whitelist.txt` and `new_found.txt` can be edited to include comments, such as:
+
+`00:11:22:33:44:55 # My iPhone`
+
 ## Usage
 `./net_guard.sh <interface>`
 
