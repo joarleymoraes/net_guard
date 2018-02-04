@@ -39,6 +39,8 @@ Both `whitelist.txt` and `new_found.txt` can be edited to include comments, such
 
 `00:11:22:33:44:55 # My iPhone`
 
+There are two equivalent lists for promiscuous mode devices (`p_whitelist.txt` and `p_new_found.txt`).
+
 ## Usage
 `./net_guard.sh <interface>`
 
