@@ -1,5 +1,13 @@
 WL_FILE=whitelist.txt
-NFL_FILE=new_found.txt 
+NF_FILE=new_found.txt 
+
+#
+# P for promiscuous mode
+#
+P_WL_FILE=p_whitelist.txt
+P_NF_FILE=p_new_found.txt
+
+
 CRT_FILE=arp_scan.txt
 ALERT_EMAIL_ADD=your@email.com
 CHECK_INTERVAL=30

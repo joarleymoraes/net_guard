@@ -1,6 +1,13 @@
 # Net Guard
 
-A command line tool to detect new unknown device in your network using ARP protocol. Maybe someone is hacking in your network! Alerts are sent via email.
+A command line tool to detect possible malicious activity in your network using ARP protocol. Maybe someone is hacking in your network! Alerts are sent via email.
+
+
+## Features
+
+* Detection of unknown devices
+* Detection of devices in promiscuous mode (approach taken from [here](http://www.securityfriday.com/promiscuous_detection_01.pdf))
+
 
 ## Install 
 
